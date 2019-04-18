@@ -5,3 +5,17 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require 'faker'
+require 'date'
+
+# 10.times do
+#    Doctor.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, specialty: ["GENERAL", "ORL", "DENTIST"].sample, zip_code: Faker::Number.number(4))
+#   end
+
+# 10.times do
+#     Patient.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name)
+#  end
+
+# 20.times do
+#     Appointment.create(doctor: Doctor.find(Faker::Number.between(1, 10)), patient: Patient.find(Faker::Number.between(1, 10)), date: Faker::Date.between_except(1.year.ago, 1.year.from_now, Date.today))
+# end
